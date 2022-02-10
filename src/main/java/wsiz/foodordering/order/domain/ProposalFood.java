@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.ProposalFoodDto;
+import wsiz.foodordering.order.dto.ProposalFoodDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

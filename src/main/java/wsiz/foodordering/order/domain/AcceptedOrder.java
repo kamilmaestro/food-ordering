@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.OrderDto;
+import wsiz.foodordering.order.dto.OrderDto;
 
 interface AcceptedOrder {
 

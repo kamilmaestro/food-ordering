@@ -1,6 +1,6 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.security.jwt.JwtConfig;
+import wsiz.foodordering.security.jwt.JwtConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

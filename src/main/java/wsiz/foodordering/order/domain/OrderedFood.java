@@ -1,7 +1,7 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.OrderedFoodDto;
-import com.kamilmarnik.foodlivery.supplier.domain.Money;
+import wsiz.foodordering.order.dto.OrderedFoodDto;
+import wsiz.foodordering.supplier.domain.Money;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

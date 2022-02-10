@@ -1,9 +1,9 @@
 package wsiz.foodordering.channel.infrastructure;
 
-import com.kamilmarnik.foodlivery.channel.domain.ChannelFacade;
-import com.kamilmarnik.foodlivery.channel.dto.ChannelDto;
-import com.kamilmarnik.foodlivery.channel.dto.ChannelMemberDto;
-import com.kamilmarnik.foodlivery.infrastructure.PageInfo;
+import wsiz.foodordering.channel.domain.ChannelFacade;
+import wsiz.foodordering.channel.dto.ChannelDto;
+import wsiz.foodordering.channel.dto.ChannelMemberDto;
+import wsiz.foodordering.infrastructure.PageInfo;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;

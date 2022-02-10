@@ -1,7 +1,7 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.ProposalDto;
-import com.kamilmarnik.foodlivery.order.dto.ProposalFoodDto;
+import wsiz.foodordering.order.dto.ProposalDto;
+import wsiz.foodordering.order.dto.ProposalFoodDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
-import static com.kamilmarnik.foodlivery.order.domain.ProposalStatus.*;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
+import static wsiz.foodordering.order.domain.ProposalStatus.*;
 
 @Entity
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

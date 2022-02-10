@@ -1,7 +1,7 @@
 package wsiz.foodordering.security.jwt;
 
 import com.google.common.base.Strings;
-import com.kamilmarnik.foodlivery.user.domain.CustomUserDetails;
+import wsiz.foodordering.user.domain.CustomUserDetails;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.JwtException;

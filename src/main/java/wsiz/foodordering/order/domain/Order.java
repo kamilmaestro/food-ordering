@@ -1,10 +1,10 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.*;
-import com.kamilmarnik.foodlivery.order.exception.OrderFinalizationForbidden;
-import com.kamilmarnik.foodlivery.order.exception.ResignalFromPurchaseForbidden;
-import com.kamilmarnik.foodlivery.order.exception.UserOrderEditionForbidden;
-import com.kamilmarnik.foodlivery.order.exception.UserOrderRemovalForbidden;
+import wsiz.foodordering.order.dto.*;
+import wsiz.foodordering.order.exception.OrderFinalizationForbidden;
+import wsiz.foodordering.order.exception.ResignalFromPurchaseForbidden;
+import wsiz.foodordering.order.exception.UserOrderEditionForbidden;
+import wsiz.foodordering.order.exception.UserOrderRemovalForbidden;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -16,9 +16,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.isAdmin;
-import static com.kamilmarnik.foodlivery.order.domain.OrderStatus.*;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.isAdmin;
+import static wsiz.foodordering.order.domain.OrderStatus.*;
 import static java.time.Instant.now;
 import static java.util.stream.Collectors.toList;
 

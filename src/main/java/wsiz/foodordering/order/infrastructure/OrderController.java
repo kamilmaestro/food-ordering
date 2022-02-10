@@ -1,8 +1,8 @@
 package wsiz.foodordering.order.infrastructure;
 
-import com.kamilmarnik.foodlivery.infrastructure.PageInfo;
-import com.kamilmarnik.foodlivery.order.domain.OrderFacade;
-import com.kamilmarnik.foodlivery.order.dto.*;
+import wsiz.foodordering.infrastructure.PageInfo;
+import wsiz.foodordering.order.domain.OrderFacade;
+import wsiz.foodordering.order.dto.*;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;

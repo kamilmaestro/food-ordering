@@ -1,9 +1,9 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.AddProposalDto;
-import com.kamilmarnik.foodlivery.supplier.domain.SupplierFacade;
-import com.kamilmarnik.foodlivery.supplier.dto.FoodDto;
-import com.kamilmarnik.foodlivery.utils.TimeProvider;
+import wsiz.foodordering.order.dto.AddProposalDto;
+import wsiz.foodordering.supplier.domain.SupplierFacade;
+import wsiz.foodordering.supplier.dto.FoodDto;
+import wsiz.foodordering.utils.TimeProvider;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static com.kamilmarnik.foodlivery.utils.DateUtils.nowPlusMinutes;
+import static wsiz.foodordering.utils.DateUtils.nowPlusMinutes;
 import static java.util.UUID.randomUUID;
 import static java.util.stream.Collectors.*;
 

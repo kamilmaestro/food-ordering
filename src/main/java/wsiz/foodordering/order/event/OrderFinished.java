@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.event;
 
-import com.kamilmarnik.foodlivery.order.dto.UserOrderDto;
+import wsiz.foodordering.order.dto.UserOrderDto;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

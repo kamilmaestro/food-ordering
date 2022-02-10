@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.exception.IllegalExpirationDate;
+import wsiz.foodordering.order.exception.IllegalExpirationDate;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

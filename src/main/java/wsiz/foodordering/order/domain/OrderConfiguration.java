@@ -1,7 +1,7 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.supplier.domain.SupplierFacade;
-import com.kamilmarnik.foodlivery.utils.TimeProvider;
+import wsiz.foodordering.supplier.domain.SupplierFacade;
+import wsiz.foodordering.utils.TimeProvider;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

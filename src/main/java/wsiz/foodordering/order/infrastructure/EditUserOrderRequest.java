@@ -1,7 +1,7 @@
 package wsiz.foodordering.order.infrastructure;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.kamilmarnik.foodlivery.order.dto.EditUserOrderDto;
+import wsiz.foodordering.order.dto.EditUserOrderDto;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;

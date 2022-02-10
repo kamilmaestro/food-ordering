@@ -1,13 +1,13 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.channel.dto.ChannelDto;
+import wsiz.foodordering.channel.dto.ChannelDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import javax.persistence.*;
 
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUsername;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUsername;
 
 @Entity
 @Builder

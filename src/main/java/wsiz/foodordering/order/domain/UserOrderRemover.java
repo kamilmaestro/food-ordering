@@ -1,11 +1,11 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.OrderDto;
+import wsiz.foodordering.order.dto.OrderDto;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
-import static com.kamilmarnik.foodlivery.order.domain.OrderStatus.ORDERED;
+import static wsiz.foodordering.order.domain.OrderStatus.ORDERED;
 
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)

@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.supplier.exception.IncorrectAmountOfFood;
+import wsiz.foodordering.supplier.exception.IncorrectAmountOfFood;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;

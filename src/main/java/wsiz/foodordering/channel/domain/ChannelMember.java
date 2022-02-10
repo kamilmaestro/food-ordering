@@ -1,6 +1,6 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.channel.dto.ChannelMemberDto;
+import wsiz.foodordering.channel.dto.ChannelMemberDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

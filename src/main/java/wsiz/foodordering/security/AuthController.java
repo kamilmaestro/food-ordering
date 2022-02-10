@@ -1,7 +1,7 @@
 package wsiz.foodordering.security;
 
-import com.kamilmarnik.foodlivery.user.domain.UserFacade;
-import com.kamilmarnik.foodlivery.user.dto.UserDto;
+import wsiz.foodordering.user.domain.UserFacade;
+import wsiz.foodordering.user.dto.UserDto;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.channel.dto.ChannelDto;
-import com.kamilmarnik.foodlivery.channel.dto.ChannelMemberDto;
-import com.kamilmarnik.foodlivery.channel.exception.ChannelNotFound;
-import com.kamilmarnik.foodlivery.infrastructure.PageInfo;
+import wsiz.foodordering.channel.dto.ChannelDto;
+import wsiz.foodordering.channel.dto.ChannelMemberDto;
+import wsiz.foodordering.channel.exception.ChannelNotFound;
+import wsiz.foodordering.infrastructure.PageInfo;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.experimental.FieldDefaults;
@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
 
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)

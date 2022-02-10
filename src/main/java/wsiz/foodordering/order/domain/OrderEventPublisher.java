@@ -1,8 +1,8 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.OrderDto;
-import com.kamilmarnik.foodlivery.order.event.OrderFinished;
-import com.kamilmarnik.foodlivery.utils.TimeProvider;
+import wsiz.foodordering.order.dto.OrderDto;
+import wsiz.foodordering.order.event.OrderFinished;
+import wsiz.foodordering.utils.TimeProvider;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;

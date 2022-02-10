@@ -1,9 +1,9 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.EditUserOrderDto;
-import com.kamilmarnik.foodlivery.order.dto.OrderedFoodDto;
-import com.kamilmarnik.foodlivery.order.dto.UserOrderDto;
-import com.kamilmarnik.foodlivery.order.dto.UserOrderWithFoodDto;
+import wsiz.foodordering.order.dto.EditUserOrderDto;
+import wsiz.foodordering.order.dto.OrderedFoodDto;
+import wsiz.foodordering.order.dto.UserOrderDto;
+import wsiz.foodordering.order.dto.UserOrderWithFoodDto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

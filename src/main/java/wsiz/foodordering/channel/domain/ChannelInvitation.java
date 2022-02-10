@@ -1,7 +1,7 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.channel.exception.InvalidInvitation;
-import com.kamilmarnik.foodlivery.security.jwt.JwtConfig;
+import wsiz.foodordering.channel.exception.InvalidInvitation;
+import wsiz.foodordering.security.jwt.JwtConfig;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import lombok.AccessLevel;
@@ -12,7 +12,7 @@ import lombok.experimental.FieldDefaults;
 import javax.crypto.SecretKey;
 import java.util.Date;
 
-import static com.kamilmarnik.foodlivery.utils.DateUtils.currentDatePlusMinutes;
+import static wsiz.foodordering.utils.DateUtils.currentDatePlusMinutes;
 
 @Getter
 @AllArgsConstructor

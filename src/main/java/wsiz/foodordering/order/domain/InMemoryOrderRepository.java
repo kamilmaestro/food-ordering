@@ -7,8 +7,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import static com.kamilmarnik.foodlivery.order.domain.OrderStatus.FINALIZED;
-import static com.kamilmarnik.foodlivery.order.domain.OrderStatus.ORDERED;
+import static wsiz.foodordering.order.domain.OrderStatus.FINALIZED;
+import static wsiz.foodordering.order.domain.OrderStatus.ORDERED;
 
 class InMemoryOrderRepository implements OrderRepository {
 

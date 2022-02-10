@@ -1,9 +1,9 @@
 package wsiz.foodordering.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kamilmarnik.foodlivery.security.LoginRequest;
-import com.kamilmarnik.foodlivery.security.LoginResponse;
-import com.kamilmarnik.foodlivery.user.domain.CustomUserDetails;
+import wsiz.foodordering.security.LoginRequest;
+import wsiz.foodordering.security.LoginResponse;
+import wsiz.foodordering.user.domain.CustomUserDetails;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
 
-import static com.kamilmarnik.foodlivery.utils.DateUtils.currentDatePlusMinutes;
+import static wsiz.foodordering.utils.DateUtils.currentDatePlusMinutes;
 
 public class JwtUsernameAndPasswordAuthFilter extends UsernamePasswordAuthenticationFilter {
 

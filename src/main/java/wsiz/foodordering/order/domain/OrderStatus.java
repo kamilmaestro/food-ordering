@@ -1,6 +1,6 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.order.dto.OrderStatusDto;
+import wsiz.foodordering.order.dto.OrderStatusDto;
 
 enum OrderStatus {
 

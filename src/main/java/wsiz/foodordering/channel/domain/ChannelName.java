@@ -1,6 +1,6 @@
 package wsiz.foodordering.channel.domain;
 
-import com.kamilmarnik.foodlivery.channel.exception.InvalidChannelName;
+import wsiz.foodordering.channel.exception.InvalidChannelName;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;

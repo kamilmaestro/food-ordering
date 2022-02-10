@@ -1,12 +1,12 @@
 package wsiz.foodordering.order.domain;
 
-import com.kamilmarnik.foodlivery.infrastructure.PageInfo;
-import com.kamilmarnik.foodlivery.order.dto.*;
-import com.kamilmarnik.foodlivery.order.exception.AnyProposalForSupplierFound;
-import com.kamilmarnik.foodlivery.order.exception.OrderForSupplierAlreadyExists;
-import com.kamilmarnik.foodlivery.order.exception.OrderNotFound;
-import com.kamilmarnik.foodlivery.supplier.domain.SupplierFacade;
-import com.kamilmarnik.foodlivery.utils.TimeProvider;
+import wsiz.foodordering.infrastructure.PageInfo;
+import wsiz.foodordering.order.dto.*;
+import wsiz.foodordering.order.exception.AnyProposalForSupplierFound;
+import wsiz.foodordering.order.exception.OrderForSupplierAlreadyExists;
+import wsiz.foodordering.order.exception.OrderNotFound;
+import wsiz.foodordering.supplier.domain.SupplierFacade;
+import wsiz.foodordering.utils.TimeProvider;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.experimental.FieldDefaults;
@@ -20,9 +20,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.kamilmarnik.foodlivery.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
-import static com.kamilmarnik.foodlivery.order.domain.OrderStatus.*;
-import static com.kamilmarnik.foodlivery.order.domain.ProposalStatus.WAITING;
+import static wsiz.foodordering.infrastructure.authentication.LoggedUserGetter.getLoggedUserId;
+import static wsiz.foodordering.order.domain.OrderStatus.*;
+import static wsiz.foodordering.order.domain.ProposalStatus.WAITING;
 
 @Transactional
 @Builder
